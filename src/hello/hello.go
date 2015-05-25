@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+import "stringutil"
+
 func main() {
-	fmt.Printf("Hello, world.\n")
+	fmt.Printf(stringutil.Reverse("!oG, olleH"))
 }
